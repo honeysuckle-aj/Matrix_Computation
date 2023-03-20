@@ -1,0 +1,6 @@
+- [[Jaccard index]], [[Jaccard similarity coefficient]]
+- 用于比较两个集合之间的相似程度.
+- # 定义
+	- $D(X,Y)=\frac{|X\cap Y|}{X\cup Y|}$
+- # 应用
+	- 常被用于比较化学式之间的相似程度
