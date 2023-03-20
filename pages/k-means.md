@@ -1,0 +1,7 @@
+- [[收敛性]]
+- [[参数选择]]
+	- 初始簇中心$u_i$如何确定：多次随机初始化，计算最终收敛结果的$SSE$，选择$SSE$最小的。
+	- 初始化$k$: [Determining the number of clusters in a data set - Wikipedia](https://en.wikipedia.org/wiki/Determining_the_number_of_clusters_in_a_data_set)
+		- [[elbow method]]
+		- ...
+-
