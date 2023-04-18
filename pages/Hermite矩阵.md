@@ -1,0 +1,17 @@
+- 若$A\in C^{n\times n}$, 且$A=A^{H}$, 即$a_{ij}=a^*_{ji}$,$^*$表示共轭
+- 譬如观测信号向量$x(t)=(x_1(t),x_2(t),...,x_n(t))^T$的[[自协方差矩阵]]
+	- $C_{xx}=E\{x(t)x(t)^H\}$
+- Hermite矩阵具有以下重要==性质==:
+	- 对所有$n\times n$复矩阵$A$, 矩阵$A+A^H, AA^H, A^HA$,均是Hermite矩阵.
+	- 若A是Hermite矩阵, 则矩阵幂$A^k$对所有$k=1,2,...$都是Hermite矩阵
+	- 若Hermite矩阵A非奇异, 则其[[逆矩阵]]$A^{-1}$也是Hermite矩阵.
+	- 若A和B都是Hermite矩阵, 则$\alpha A+\beta B$也是Hermite矩阵
+	- 若A和B为Hermite矩阵, 则 $AB+BA, j(AB-BA)$也是Hermite矩阵.
+	- Hermite矩阵的[[正定性]]:
+		- 一个Hermite矩阵是正定的, ==当且仅当==它满足以下==任何一个==条件:
+			- 二次函数$x^HAx>0,\forall x\neq 0$
+			- 矩阵A的所有[[特征值]]大于零
+			- 存在一个[[非奇异矩阵]]R, 使得$A=R^HR$
+			- 对任意[[非奇异矩阵]]P, 使得$P^HAP$是正定阵.
+		- 最简单的Hermite矩阵莫过于单位矩阵$I=[e_1,...,e_n]$, 其中$e_i$为[[n维基本向量]], 其第i个元素为1, 其余元素为0
+-
